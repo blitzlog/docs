@@ -8,7 +8,7 @@ Manage logs generated from a distributed deployment of Go binaries from a single
 - Loging library is context aware and is able to achieve a high level of compression.
 - All logs are encoded and encrypted using 4096 bit RSA encryption.
 
-# Next Steps
+## Next Steps
 
 - [Quick start.](getting_started.md)
 - [Learn more about log package.](github.com/blitzlog/log)
