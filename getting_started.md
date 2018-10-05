@@ -1,6 +1,6 @@
-# Getting Started
+## Getting Started
 
-Use `github.com/blitzlog/log` package in your `GoLang` source code for publishing logs. By default this prints logs to `stdout`. To stream logs to *BlitzLog* platform, follow the two step process below.
+Use `github.com/blitzlog/log` package in your `GoLang` source code for publishing logs. By default this prints logs to `stdout`, to stream logs to *BlitzLog* platform, follow the steps below.
 
 ## Register at [blitzlog.com](https://test.blitzlog.com)
 
@@ -9,7 +9,7 @@ Use `github.com/blitzlog/log` package in your `GoLang` source code for publishin
 - Go to `Settings` tab, followed by `Keys` sub-tab.
 - Create API Key, or use existing one.
 
-## Update go source to use API Key
+## Use API key in go source
 
 Update your code entrypoint to look something like below.
 
@@ -27,6 +27,6 @@ func main() {
 
 ```
 
-Thats is all, run your code a local machine, on-prem or public cloud.
+Thats is all, run your code a local machine, on-prem or public cloud, which allows outbound TCP traffic.
 
-You can view your logs at https://blitzlog.com using the same login, used to create API Key.
+You can view your logs at [blitzlog.com](https://test.blitzlog.com).
