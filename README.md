@@ -1,14 +1,21 @@
-# BlitzLog
+# BlitzLog (currently in beta test)
 
-Manage logs generated from a distributed deployment of Go binaries from a single cloud platform. This context aware log management provides state of the art tools to control and analyze log streams.
+Cloud platform to visualize and manage logs in you GoLang source code. It uses [blitzlog/log](https://github.com/blitzlog/log) package to stream logs to blitzlog platform.
 
-## Key Features
+Blitzlog provides a powerful and easy to use SaaS platform to manage logs with some key advantages.
 
-- Control the verbosity of you logs on a running binary.
-- Loging library is context aware and is able to achieve a high level of compression.
-- All logs are encoded and encrypted using 4096 bit RSA encryption.
+- Easy two step setup.
+- Concise and powerful log interface.
+- Realtime control of log level and/or verbosity.
+- Flexiblity to switch b/w JSON or more human readable formats.
+- Context aware library enable high compression and lightning speeds.
+- Underlying gRPC protocol provides performant and secure transport.
 
 ## Next Steps
 
 - [Quick start.](getting_started.md)
-- [Learn more about log package.](github.com/blitzlog/log)
+- [Log package.](https://github.com/blitzlog/log)
+- [Best practices](best_practices.md)
+- [View logs](visualization.md)
+- [Change log level](verbosity.md)
+- [Command line interface](cli.md)
